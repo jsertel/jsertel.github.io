@@ -1,0 +1,25 @@
+.main {
+  height: auto;
+  width: auto;
+  margin: auto;
+}
+.top {
+  background-color: #453E72;
+  height: 15%;
+  margin: auto;
+
+}
+.flare {
+    height: 25%;
+    background-color: : #809792;
+margin: auto;
+}
+.main-content {
+  height: 50%;
+  margin: auto;
+}
+.bottom {
+  height: 20%;
+  margin: auto;
+
+}
