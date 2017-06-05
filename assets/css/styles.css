@@ -4,7 +4,7 @@
 
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #121D33;
   color: white;
 }
 header .container {
@@ -27,7 +27,7 @@ header .intro-text .skills {
 }
 
 footer {
-  background: #2C3E50;
+  background: #FB6D4C;
   color: white;
 
 }
@@ -37,7 +37,7 @@ h1, h2, h3 {
 
 }
 hr.code-light,
-hr.code-main {
+hr.code-dark {
   padding: 0;
   border: none;
   border-top: solid 5px;
@@ -45,9 +45,9 @@ hr.code-main {
   max-width: 250px;
   margin: 25px auto 30px;
 }
-hr.star-light:after,
-hr.star-primary:after {
-  content: "\f005";
+hr.code-light:after,
+hr.code-dark:after {
+  content: "\f121";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
@@ -55,22 +55,22 @@ hr.star-primary:after {
   font-size: 2em;
   padding: 0 0.25em;
 }
-hr.star-light {
-  border-color: white;
+hr.code-light {
+  border-color: #F8F8F8;
 }
-hr.star-light:after {
-  background-color: #18BC9C;
-  color: white;
+hr.code-light:after {
+  background-color: #121D33;
+  color: #F8F8F8;
 }
-hr.star-primary {
-  border-color: #2C3E50;
+hr.code-dark {
+  border-color: #121D33;
 }
-hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
+hr.code-dark:after {
+  background-color: #F8F8F8;
+  color: #121D33;
 }
 .about  {
-  background: #18BC9C;
+  background: #121D33;
   color: white;
 
 }
@@ -81,7 +81,7 @@ hr.star-primary:after {
 }
 
 .mynavbar{
-  background: #2C3E50;
+  background: #FD6C55;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
@@ -102,7 +102,7 @@ hr.star-primary:after {
   color: white;
 }
 .mynavbar .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #121D33;
 }
 .mynavbar .navbar-nav li a:focus,
 .mynavbar .navbar-nav li a:active {
@@ -110,13 +110,13 @@ hr.star-primary:after {
 }
 .mynavbar .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #121D33;
 }
 .mynavbar .navbar-nav li.active a:hover,
 .mynavbar .navbar-nav li.active a:focus,
 .mynavbar .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #121D33;
 }
 .mynavbar .navbar-toggle {
   color: white;
@@ -126,9 +126,9 @@ hr.star-primary:after {
 }
 .mynavbar .navbar-toggle:hover,
 .mynavbar .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #121D33;
   color: white;
-  border-color: #18BC9C;
+  border-color: #121D33;
 }
 .btn-outline {
   color: white;
@@ -142,7 +142,7 @@ hr.star-primary:after {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #121D33;
   background: white;
   border: solid 2px white;
 }
@@ -155,4 +155,8 @@ hr.star-primary:after {
   text-align: center;
   font-size: 20px;
   line-height: 45px;
+}
+.portfolio {
+  padding-bottom: 50px;
+  background-color: #F8F8F8
 }
