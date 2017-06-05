@@ -1,0 +1,158 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  text-align: center;
+  background: #18BC9C;
+  color: white;
+}
+header .container {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+header img {
+  display: block;
+  margin: 0 auto 20px;
+}
+header .intro-text .name {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+footer {
+  background: #2C3E50;
+  color: white;
+
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+
+}
+hr.code-light,
+hr.code-main {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star-light {
+  border-color: white;
+}
+hr.star-light:after {
+  background-color: #18BC9C;
+  color: white;
+}
+hr.star-primary {
+  border-color: #2C3E50;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #2C3E50;
+}
+.about  {
+  background: #18BC9C;
+  color: white;
+
+}
+
+.about h2 {
+  text-transform: uppercase;
+
+}
+
+.mynavbar{
+  background: #2C3E50;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+.mynavbar .navbar-brand {
+  color: white;
+}
+.mynavbar .navbar-brand:hover,
+.mynavbar .navbar-brand:focus,
+.mynavbar .navbar-brand:active,
+.mynavbar .navbar-brand.active {
+  color: white;
+}
+.mynavbar .navbar-nav {
+  letter-spacing: 1px;
+}
+.mynavbar .navbar-nav li a {
+  color: white;
+}
+.mynavbar .navbar-nav li a:hover {
+  color: #18BC9C;
+}
+.mynavbar .navbar-nav li a:focus,
+.mynavbar .navbar-nav li a:active {
+  color: white;
+}
+.mynavbar .navbar-nav li.active a {
+  color: white;
+  background: #18BC9C;
+}
+.mynavbar .navbar-nav li.active a:hover,
+.mynavbar .navbar-nav li.active a:focus,
+.mynavbar .navbar-nav li.active a:active {
+  color: white;
+  background: #18BC9C;
+}
+.mynavbar .navbar-toggle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-color: white;
+}
+.mynavbar .navbar-toggle:hover,
+.mynavbar .navbar-toggle:focus {
+  background-color: #18BC9C;
+  color: white;
+  border-color: #18BC9C;
+}
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #18BC9C;
+  background: white;
+  border: solid 2px white;
+}
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
