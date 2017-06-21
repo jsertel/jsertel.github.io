@@ -160,3 +160,31 @@ hr.code-dark:after {
   padding-bottom: 50px;
   background-color: #F8F8F8
 }
+.portfolio-items img {
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  max-width: 50%;
+}
+.dropdown-menu {
+  background-color: #FB6D4C;
+}
+.project {
+  margin: 5%;
+  border: 1px solid #121D33;
+}
+
+.project  img {
+  padding-bottom: 3%;
+}
+
+.project-text {
+
+  line-height: 2.0;
+}
+.disclaimer {
+  font-style: italic;
+}
+.about-role {
+  margin: 5%;
+}

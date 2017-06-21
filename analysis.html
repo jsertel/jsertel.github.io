@@ -59,7 +59,7 @@
 
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="page-scroll" href="#about">About Me</a></li>
+            <li><a class="page-scroll" href="index.html">About Me</a></li>
             <li><a class="page-scroll" href="https://drive.google.com/open?id=0Byp5ixZYJT_WLXNEUllDSHR0SWM" target="_blank">CV</a></li>
             <li><a class="page-scroll" href="#contact">Contact</a></li>
             <li class="dropdown">
@@ -81,7 +81,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="me">
+
                     <div class="intro-text">
                         <h1 class="name">John Scott Ertel</h1>
                         <hr class="code-light">
@@ -94,31 +94,99 @@
             </div>
         </div>
     </header>
-    <section id="portfolio">
-        <div class="container portfolio">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="code-dark">
-                </div>
+
+     <section id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center ">
+              <h2>Analysis</h2>
+                <hr class="code-dark">
+                <p class="disclaimer">All images are reconstructions and do not contain actual client data</p>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 text-center portfolio-items">
-                    <h3>Analysis Projects</h3>
-                    <a href="analysis.html"><img class="img-responsive img-center" src="img/cpc.jpg" alt="analysis Example"></a>
-                    <p>Helping decision makers understand a problem and solution</p>
+            <div class="container about-role">
+              <div class="row">
+                <div class="col-lg-12">
+                  <p>My analytical process is to take a business problem, formulate it into a series of questions, tests those assertions , and then deliver insights that can be used to help solve those problems. </p>
                 </div>
-                  <div class="col-lg-4 text-center portfolio-items">
-                    <h3>Product Management</h3>
-                    <a href="prodmgmt.html"><img class="img-responsive img-center" src="img/clerk.jpg" alt="product example"></a>
-                    <p>Bridging the business and tech to execute a vision</p>
-                </div>
-                <div class="col-lg-4 text-center portfolio-items">
-                    <h3>Development</h3>
-                    <a href="dev.html"><img class="img-responsive img-center" src="img/rails.jpg" alt="code screenshot"></a>
-                    <p>Creating applications to automate business processes</p>
-                </div>
+              </div>
             </div>
+            <div class="container project">
+              <div class="row">
+                <div class="col-lg-12  text-center">
+                    <h3>Cost Per Event</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="img-responsive" src="img/cpc.jpg" alt="cost per event">
+                </div>
+                <div class="col-lg-8 project-text">
+
+                  <p>Created a process to view labor, parts, and freight at a work order level. This allowed for the comparison of work orders by geography, service type, model, customer, etc. Ultimately used for pricing, competitive analysis, and internal chargebacks. </p>
+                  <p>There were many players involved with the building of this project, but I like to think it starts with a data-mart that I built to relate a lot of disparate attributes of work orders together. Previously all of this data had been housed in some 7+ different reports. </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="container project">
+              <div class="row">
+                <div class="col-lg-12  text-center">
+                    <h3>Capacity Plan</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="img-responsive" src="img/hcwaterfall.jpg" alt="cost per event">
+                </div>
+                <div class="col-lg-8 project-text">
+                  <p>This tool was built to model workforce needs for 1,000+ technicians across North America.  Essentially it takes historical volume and shows how much workforce was needed by city to handle that volume and compares to how much workforce the company actually had.
+                  </p><p>The final component calculates the headcount for future needs based on forecasted volume. Ultimately the tool is used by managers to make decisions on whether they need to delay hiring or ramp up staffing.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="container project">
+              <div class="row">
+                <div class="col-lg-12  text-center">
+                    <h3>Standard P&amp;L Package</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="img-responsive" src="img/pnlview.jpg" alt="pnl">
+                </div>
+                <div class="col-lg-8 project-text">
+                  <p>This was designed as a standard package to cascade out to all managers with P&amp;L responsibilities. This analysis seeked to help managers understand these questions about the financial performance of their business:
+                  <ul>
+                    <li>How is my year to date doing so far against my budget?</li>
+                    <li>What kind of earnings gap do I have for the remainder of the year?</li>
+                    <li>How does my current month compare to the budget, forecast, and the previous month?</li>
+                    <li>What are the top variances that caused me to miss the budget/forecast?</li>
+                    <li>How does our forecast change from one iteration to the next?</li>
+                    <li>What is my track record of achieving forecast?</li>
+                  </ul> </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="container project">
+              <div class="row">
+                <div class="col-lg-12  text-center">
+                    <h3>Location Analysis</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="img-responsive" src="img/mstr_esri.jpg" alt="location selection img">
+                </div>
+                <div class="col-lg-8 project-text">
+                  <p>This analysis was designed to help a client decide which locations were the best candidates for expansion. The methodology was to calculate a target customer density, economic growth indicators, and finally internal data on the clients existing capabilities in that area. This was all overlaid into Esri GIS to be able to explore the data visually.</p>
+                </div>
+              </div>
+            </div>
+
 
         </div>
     </section>
@@ -127,25 +195,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About Me</h2>
+
                     <hr class="code-light">
 
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 ">
-                    <p>I have been tinkering with computers since I was a little kid. It isn’t enough for me to just know how to use something, I have to understand how it works, and I get obsessed until I figure it out. <br> <br>
-My educational background is in business and accounting. A huge part of my career has always been focused on how I can leverage technology to do my job better and automate the boring things so I can focus on the fun.
- </p>
-                </div>
-                <div class="col-lg-6">
-                    <p>After many years as a financial analyst I was offered an opportunity to head up a business intelligence team.
-                      Rather than a career switch I see this as a progression of my analytical abilities as in the end it is all about assuring the quality and decision value of information.
-                      <br> <br> In this role I have been able to execute a vision of providing automated and interactive dashboards that assist business leaders in understanding the drivers of the business. In addition to building a very productive team I also gained significant exposure to the
- </p>
-                </div>
 
-            </div>
         </div>
     </section>
         <!-- Footer -->
